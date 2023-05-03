@@ -87,7 +87,7 @@ input[value="="]{
 }
 
 input[value="0"]{
-    grid-column: 1 / 4;
+    grid-column: 1 / 3;
 }
 
 

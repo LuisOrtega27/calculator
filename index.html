@@ -13,9 +13,12 @@
 
     <div class="wrapper">
 
-        <div class="calculator">
+        <form action="#" class="calculator">
 
-            <input type="text" name="calc-screen" id="calc-screen" pattern="(\s?[0-9 \s \+ \- \* \/ = .]*\s?)" autofocus>
+            <div class="calc-screen-container">
+                <input type="text" id="calc-screen" pattern="(\s?[0-9 \s \+ \- \* \/ = .]*\s?)" autofocus autocomplete="off">
+                <p class="calc-screen-msg">Unicamente numeros y simbolos aritmeticos</p>
+            </div>
 
             <input type="button" value="/" class="calc-btn">
             <input type="button" value="*" class="calc-btn">
@@ -40,7 +43,7 @@
             <input type="button" value="0" class="calc-btn">
             <input type="button" value="." class="calc-btn">
             
-        </div>
+        </form>
         
         
     </div>
